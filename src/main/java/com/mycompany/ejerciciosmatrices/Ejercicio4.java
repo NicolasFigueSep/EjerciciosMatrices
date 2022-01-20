@@ -25,11 +25,13 @@ public class Ejercicio4 {
        dni = Integer.parseInt(JOptionPane.showInputDialog("Introducir dni: "));
        char [] letraDni = {'T','R','W','A','G','G','M','Y','F','P','D','X','B','N','J','Z','S','Q','V','H','L','C','K','E'};
        JOptionPane.showMessageDialog(null, ("DNI: " + dni + letraDni[calculoLetra(dni)]));
+        System.out.println("Ejemplo que no vale de nada para lo del \n "
+                + " git y la rama y tal");
     }
     public static int calculoLetra(int dni){
         dni=dni%23;
         return ++dni;
     }
     //Se vienen cositasrrrrr
-    
+   
 }
