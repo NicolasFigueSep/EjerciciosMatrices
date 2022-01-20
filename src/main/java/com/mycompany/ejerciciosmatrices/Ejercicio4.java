@@ -30,6 +30,6 @@ public class Ejercicio4 {
         dni=dni%23;
         return ++dni;
     }
-    //Se vienen cositas
+    //Se vienen cositasrrrrr
     
 }
